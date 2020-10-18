@@ -1,10 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Courier New", Courier,monospace;
-  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
-}
-button{
-	cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  background: #5f2c82; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f2c82, #49a09d); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+button {
+  cursor: pointer;
+}
